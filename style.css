@@ -1,0 +1,264 @@
+body {
+    color: #333;
+}
+.topnav {
+    background: #282828;
+    color: #fff;
+    padding: 0.625rem 0;
+    font-size: 0.875rem;
+}
+.topnav a {
+    color: #fff;
+}
+.topnav a:hover {
+    color: #f15440;
+}
+.mainheater {
+    min-height: 650px;
+    background: #1f1510 url(./images/mainbanner.jpg) center top no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+.mainheater .topbox {
+    margin-top: 1rem;
+}
+.mainheater .top-bar,
+.mainheater .top-bar ul {
+    background: none;
+}
+.mainheater a {
+    color: #fff;
+}
+.mainheater a:hover,
+.mainheater a:active {
+    color: #f15440;
+}
+.logobox {
+    float: left;
+}
+.mainheater .maintext {
+    text-align: center;
+    margin-top: 10rem;
+}
+.logo-small {
+	width: 15%;
+	margin-left: 5%;
+	height: auto;
+}
+
+.maintext strong {
+    font-size: 1.875rem;
+    clear: both;
+    display: block;
+}
+.maintext small {
+    font-size: 1rem;
+    display: block;
+    clear: both;
+}
+.maintext .orderbtn {
+    display: block;
+}
+.maintext .orderbtn a {
+    background: #c54943;
+    color: #fff;
+    padding: 1rem 5rem;
+    line-height: 5rem;
+    text-shadow: none;
+}
+.maintext .orderbtn a:hover {
+    background: #af362d;
+}
+.shops-container {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 8rem 0;
+}
+.shops-container .titlebox h2 {
+    font-size: 2.68rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.shops-container .titlebox small {
+    font-size: 1.25rem;
+    color: #999;
+}
+.shops-container .s-item {
+    margin-top: 2rem;
+}
+.shops-container .s-item img {
+    border-radius: 100%;
+    display: block;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+}
+.shops-container .s-item img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.shops-container .s-item dd {
+    margin-top: 1rem;
+}
+.shops-container .s-item a {
+    color: #555;
+}
+.bottom-infos {
+    padding: 8rem 0 4rem;
+    background: url(./images/7.jpg) center top no-repeat;
+    color: #fff;
+    background-size: cover;
+}
+.bottom-infos .nbox {
+    border-left: 20px solid #eb4e34;
+    padding-left: 1rem;
+}
+.bottom-infos .nbox strong {
+    font-size: 1.25rem;
+}
+.bottom-infos .desbox {
+    margin-bottom: 4rem;
+    text-align: left;
+}
+.price-range {
+    margin-bottom: 4rem;
+    text-align: left;
+}
+.footbox {
+    background: #181818 center center no-repeat;
+    color: #999;
+    padding: 3rem 0;
+}
+.footbox p {
+    margin-bottom: 0;
+}
+.footbox a {
+    color: #999;
+}
+.footbox a:hover {
+    color: #f15440;
+}
+.footbox-npage {
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.mapbox {
+    margin-top: 1.25rem;
+}
+.mapbox iframe {
+    width: 100%;
+    min-height: 180px;
+    opacity: 0.5;
+}
+.contactinfo {
+    border-top: 1px solid #000;
+    padding-top: 4rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 3rem;
+}
+.npage-mainheater {
+    min-height: 100px;
+    background-position: center bottom;
+    background: #1f1510 url(./images/banner.jpg) center top no-repeat;
+    background-size: cover;
+}
+.n-container {
+    padding: 3rem 0;
+}
+.mainarticle .title {
+    font-size: 1.625rem;
+    font-weight: bold;
+    border-bottom: 3px solid #ee4e36;
+    padding: 0.5rem 2rem;
+}
+.mainarticle .maininfo {
+    padding: 2rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .mainheater {
+        min-height: 350px;
+    }
+    .logobox {
+        float: none!important;
+        margin: 2rem auto 0;
+        text-align: center;
+    }
+    .mainheater .topbox {
+        margin-top: 0;
+    }
+    .title-bar {
+        background: none!important;
+        float: left;
+        padding: 0!important;
+    }
+    .top-bar {
+        padding: 0;
+    }
+    .mainmenu {
+        width: 100%;
+        float: none!important;
+    }
+    .mainmenu li {
+        width: 100%;
+        display: block;
+        background: rgba(199, 72, 63, 0.9);
+        text-align: center;
+        border-bottom: 1px solid #c94840;
+        text-shadow: none;
+    }
+    .menu>li {
+        display: block!important;
+    }
+    .mainheater .maintext {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .maintext strong {
+        font-size: 1.5rem;
+    }
+    .shops-container .titlebox h2 {
+        font-size: 2rem;
+    }
+    .shops-container .titlebox small {
+        font-size: 1rem;
+    }
+    .bottom-infos {
+        background-size: cover;
+    }
+    .footbox {
+        background: #181818 center 2rem no-repeat;
+        padding: 6rem 0 3rem;
+        font-size: .875rem;
+        text-align: center;
+    }
+   
+    .npage-mainheater {
+        min-height: 100px;
+    }
+    .mainarticle .title {
+        font-size: 1.325rem;
+        font-weight: bold;
+        border-bottom: 3px solid #ee4e36;
+        padding: .5rem .625rem;
+    }
+    .mainarticle .maininfo {
+        padding: 1rem .625rem;
+    }
+    .n-container {
+        padding: 0;
+    }
+    .r-mainarticle {
+        background: #f8f8f8;
+        padding-top: 1rem;
+    }
+}
+@media screen and (min-width: 40em) {}@media screen and (min-width: 40em) and (max-width: 63.9375em) {}@media screen and (min-width: 64em) {}@media screen and (min-width: 64em) and (max-width: 74.9375em) {}.en-small {
+    font-size:0.875rem;
+}
